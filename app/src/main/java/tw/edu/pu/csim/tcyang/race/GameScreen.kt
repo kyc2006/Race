@@ -40,7 +40,6 @@ fun GameScreen(message: String, gameViewModel: GameViewModel) {
             )
         }
 
-
         Text(text = message + gameViewModel.screenWidthPx.toString() + "*"
                 + gameViewModel.screenHeightPx.toString() + " 郭晏丞 分數: ${gameViewModel.score}")
 
